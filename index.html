@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<title>Αγορά αυτοκινήτου</title>
+
+<style>
+body{
+    background-color:#dadada5d;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align:center;
+    font-family: "Times New Roman", serif;
+    margin:30px;
+}
+
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    width: 950px;
+    background: white;
+}
+
+
+table, th, td{
+    border:2px solid brown;
+}
+
+th, td{
+    padding:12px;
+    text-align:center;
+}
+
+
+.banner{
+    height:160px;
+    font-size:40px;
+    font-weight:bold;
+    color:#7CFC00;
+    text-shadow:2px 2px 4px rgb(255, 255, 255);
+    vertical-align:middle;
+
+    background-image:url("images/car.jpg");
+    background-repeat:repeat-x;
+    background-size:300px 185px;
+}
+
+/* Λογότυπα */
+.logo{
+    width:120px;
+    height:120px;
+}
+
+/* Σύνολο */
+.total{
+    background:#9ec3d6;
+    font-weight:bold;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Αγορά αυτοκινήτου</h1>
+
+<table>
+
+<tr>
+<td colspan="6" class="banner">
+Πωλήσεις αυτοκινήτων
+</td>
+</tr>
+
+<tr>
+<th>Εταιρεία</th>
+
+<th>
+<a href="https://www.volkswagen.gr/el.html" target="_blank">VW</a>
+</th>
+<th>
+<img class="logo" src="images/vw.jpg">
+</th>
+
+<th>
+<a href="https://www.fiat.gr/" target="_blank">Fiat</a>
+</th>
+<th>
+<img class="logo" src="images/fiat.jpg">
+</th>
+
+<th>
+<a href="https://www.renault.gr/index.html" target="_blank">Renault</a><br>
+<img class="logo" src="images/renault.jpg">
+</th>
+
+</tr>
+
+<tr>
+<th rowspan="4">Έτος</th>
+<td rowspan="2">2008</td>
+<td>Α εξάμ</td>
+<td>100</td>
+<td>150</td>
+<td>200</td>
+</tr>
+
+<tr>
+<td>Β εξάμ</td>
+<td>200</td>
+<td>250</td>
+<td>300</td>
+</tr>
+
+<tr>
+<td rowspan="2">2009</td>
+<td>Α εξάμ</td>
+<td>300</td>
+<td>350</td>
+<td>400</td>
+</tr>
+
+<tr>
+<td>Β εξάμ</td>
+<td>400</td>
+<td>450</td>
+<td>500</td>
+</tr>
+
+<tr class="total">
+<td colspan="3">Σύνολο</td>
+<td>1000</td>
+<td>1200</td>
+<td>1400</td>
+</tr>
+
+</table>
+
+</body>
+</html>
